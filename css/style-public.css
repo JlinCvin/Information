@@ -1,0 +1,61 @@
+/**
+    GM-公共
+ */
+body {
+    background: #fafafb;
+}
+i,em {font-style:normal;}
+/*字色*/
+.f-red {
+    color: #ff0000;
+}
+.f-blue {
+    color: #637EF0;
+}
+/*间距*/
+.mar-t10 {
+    margin-top: 10px !important;
+}
+.mar-l10 {
+    margin-left: 10px !important;
+}
+.mar-r20 {
+    margin-right: 20px !important;
+}
+
+.pd-t0{padding-top: 0!important;}
+.pd-t10{padding-top: 10px!important;}
+
+.clearfix {zoom:1;}
+.clearfix:before{
+     content:'';
+     display:block;
+ }
+.clearfix:after{
+     content:'';
+     display:table;
+     clear:both;
+ }
+
+/****
+    layui重置
+****/
+/*按扭*/
+.layui-btn {
+    width: 92px;
+    height: 32px;
+    line-height: 32px;
+    background: #409eff;
+    border-radius: 2px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+/*下拉框*/
+.layui-form-select dl dd.layui-this {
+    background: #f1f1f1;
+    color: #333 !important;
+}
+
+

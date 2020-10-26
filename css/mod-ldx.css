@@ -1,0 +1,118 @@
+.mar-10{margin: 10px;}
+.mar-lr10{margin:0 10px;}
+.mar-t0{margin-top: 0!important;}
+.mar-b0{margin-bottom: 0!important;}
+.none{display: none;}
+
+/* */
+.big-box{
+    width: 100%!important;
+    height: auto!important;
+    position: relative;
+}
+.r-box{
+    background:rgba(239,239,239,0.5);
+    position: relative;
+}
+.alink-btn{
+    position: absolute;
+    top:40px;
+    left: 10px;
+    padding: 2px 8px;
+    color: #409EFF;
+    font-size: 14px;
+    border-radius:2px;
+    border:1px solid rgba(64,158,255,1);
+    cursor: pointer;
+    z-index: 9;
+}
+.m-chart{
+   height: 100%;
+}
+.tab-chart{
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+}
+.tab-chart span{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0 5px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.tab-chart i{
+    display: inline-block;
+    margin-right: 3px;
+    width: 8px;
+    height: 8px;
+    border-radius: 20px;
+    content: "";
+}
+.tab-chart .tab01 i{
+    background: #5D7092;
+}
+.tab-chart .tab02 i{
+    background: #7FA9FF;
+}
+.tab-chart .tab03 i{
+    background: #F6BD16;
+}
+.tab-chart .tab04 i{
+    background: #5AD8A6;
+}
+.tab-chart .cur{
+    background:rgba(216,229,255,1);
+}
+
+/*协作*/
+.total-box{
+    padding:0 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.total-box li{
+    padding: 20px;
+    text-align: center;
+    width: 45%;
+}
+.total-box li img{
+    vertical-align:  -5px;
+
+ }
+.total-box li span{
+    display: inline-block;
+    width: 83px;
+    height: 83px;
+    margin-left: 40px;
+    font-size:22px;
+    text-align: center;
+    line-height: 76px;
+    border-radius: 50%;
+    border-width:5px ;
+    border-style: solid;
+    background: #FFFFFF;
+}
+.total-box li:first-child{
+    color: #6554C0;
+    background:rgba(239,238,253,1);
+}
+.total-box li:last-child{
+    color: #32A9D0;
+    background:rgba(128,224,255,0.3);
+}
+.big-box .s-tt{
+    margin: 20px 0;
+    font-size:16px;
+    color: #000;
+    text-align: center;
+}
+.s-box-itme {
+    margin: 0 30px;
+    border-bottom: 1px solid #DDD;
+}
+.s-box-itme:last-child{
+    border: 0;
+}
+

@@ -1,0 +1,36 @@
+/**
+    GM-图标
+ */
+.icon-svg {
+    margin-right: 6px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    display: inline-block;
+}
+.ico-cancel {
+    background: url("../icon/ico-cancel.svg") center center no-repeat;
+    background-size: 100% auto;
+}
+.ico-delete {
+    background: url("../icon/ico-delete.svg") center center no-repeat;
+    background-size: auto 100%;
+}
+.ico-modify {
+    width: 16px;
+    background: url("../icon/ico-modify.svg") center center no-repeat;
+    background-size: 100% auto;
+}
+.ico-release {
+    background: url("../icon/ico-release.svg") center center no-repeat;
+    background-size: 100% auto;
+}
+
+/*列表内的图标*/
+.Case-management-bottom-right-bottom-list>div {
+
+}
+/*
+.Case-management-bottom-right-bottom-list>div.icon-svg {
+    margin-top: 10px;
+}*/
